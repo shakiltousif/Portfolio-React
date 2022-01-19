@@ -1,0 +1,79 @@
+.myCarousel {
+    margin-top: -6%;
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 286px;
+    color: #ffff;
+  }
+  
+
+.myCarousel h3 {
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  
+.myCarousel h4 {
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 500;
+    color: #787878;
+    font-size: 14px;
+  }
+  
+  .myCarousel p {
+    font-weight: 100 !important;
+    line-height: 29px !important;
+    font-size: 15px;
+    font-family: sans-serif;
+    max-height: 67px;
+  }
+  
+  .myCarousel p:before {
+    content: "“";
+    color: #aaa;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 100;
+  }
+  
+  .myCarousel p:after {
+    content: "”";
+    color: #aaa;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 100;
+    line-height: 0;
+  }
+  
+  
+  @media only screen and (max-width: 934px) {
+    
+  
+    
+    .myCarousel {
+      background: #fafafa;
+      margin-top: -9%;
+      width: 88%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 8%;
+      padding-bottom: 12.5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      border: 1px solid #ddd;
+      height: 269px;
+    }
+  
+    
+  }

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+.header{
+	background: red;
+	height: 10px;
+}
+body{
+	font-family: 'Gugi', cursive;
+}
+h1, h2, h3, h4{
+	font-family: 'Gugi', cursive;
+}
+p, button, div{
+	/*font-family: 'Source Code Pro', monospace;
+	letter-spacing: 2px;*/
+}
+
+/*Section*/
+.section-head{
+	text-align: center;
+}
+
+/* Divider */
+.divider hr{
+	height: 2px;
+	width: 20%;
+}
+
+
+
+
+
+
+header .navbar{
+	background: black ;
+	opacity: 0.8;
+	border-bottom: 2px solid #ffff;
+
+}
+.navbar .navbar-brand{
+	border-top: 4px solid #FF7370;
+	border-bottom: 4px solid #FF7370;
+	color: #FFFFFF !important;
+}
+.navbar .nav-link{
+	color: #FFFFFF !important;
+}
+.n-active, .navbar .nav-link:hover{
+	border-bottom: 5px solid #FF7370 !important;
+}
+.navbar .nav-link:nth-child(1){
+	margin-left: 0px;
+}
+
+/*Hero Section Start*/
+.hero{
+	background: url("../img/hero-main-bg.png");
+	color: white;
+	padding-top: 5rem ;
+}
+.hero .btn{
+	background: #FF7370;
+	border: none;
+	border-radius: 0px;
+}
+
+/* Section Start*/
+.about,.testimonial,.contact{
+	background: #0D0D12;
+	color: white;
+}
+
+
+/* Service Section*/
+
+.services,.plans{
+	background: #171820;
+	color: white;
+}
+
+
+.services .service-box{
+	background: #FF7370;
+	color: #171820;
+	padding: 20px;
+	margin-top: 2rem;
+}
+
+.services .service-box .icon span{
+	font-size: 5rem;
+}
+.services .service-box h4{
+	padding-top: 2rem;
+}
+
+
+/* Plans Section*/
+.plans{
+	color: #171820;
+}
+.plans .section-head{
+	color: #ffff;
+}
+.plans .plans-box{
+	margin-top: 2rem;
+	background: #FF7370;
+	padding: 4rem;
+}
+.plans .plans-price{
+	margin: 2rem 0rem;
+}
+.plans .plans-features .list-group .list-group-item{
+	background: transparent !important;
+}
+
+/* Contact Section*/
+.contact .contact-form{
+	color: #171820;
+}
+.contact .form-floating{
+	margin-bottom: 1rem;
+}
+.contact .contact-box h3{
+	margin-top: 1rem;
+}
+.contact .contact-form .submit button{
+	background: #FF7370 !important;
+	border-radius: 0px;
+}
